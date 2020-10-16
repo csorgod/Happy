@@ -1,0 +1,24 @@
+:root {
+    --c-white: #FFF;
+    --c-lightgray: #EBF2F5;
+    --c-lightblue: #29B6D1;
+    --c-greenblue: #00C7C7;
+    --c-aquablue: #96FEFF;
+    --c-naiveblue: #15C3D6;
+    --c-lightnaiveblue: #17D6EB;
+    --c-goldyellow: #FFD666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--c-white);
+    background: var(--c-lightgray);
+}
+body, input, button, textarea {
+    font: 600 18px Nunito, sans-serif;
+}
